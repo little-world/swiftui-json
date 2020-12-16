@@ -11,7 +11,8 @@ import SwiftUI
 struct json_demoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            RemoteEventsView()
         }
     }
 }

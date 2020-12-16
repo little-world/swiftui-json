@@ -1,17 +1,14 @@
-
 [
-   {
-       "name": "zwemmen",
-       "location": "zwembad"
-   },
-   
-   {
-       "name": "fietsen",
-       "location": "bossen"
-   },
-   {
-       "name": "wandelen",
-       "location": "strand"
-   }
-   
+  {
+    "name": "zwemmen",
+    "location": "zwembad"
+  },
+  {
+    "name": "fietsen",
+    "location": "bossen"
+  },
+  {
+    "name": "wandelen",
+    "location": "strand"
+  }
 ]

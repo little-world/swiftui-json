@@ -21,6 +21,9 @@ struct RemoteEventsView: View {
                     .font(.caption2)
                     .padding()
             }
+        }.onAppear {
+            print ("onAppear")
+            model.fetchEvents()
         }
     }
 }
