@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47E105A2DED9899ED6F4FEEB /* remote-error-model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E10C251FA4C4A2DCC7DD79 /* remote-error-model.swift */; };
 		47E10BA1A0F082D79C9FE1F0 /* events-model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E10F8E447859257B3455A3 /* events-model.swift */; };
 		47E10F299DC0D900DDDAE86C /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 47E10C970A212FC70DD6C3D5 /* test.json */; };
 		FEE2CFC7258A2C1700AC4568 /* json_demoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE2CFC6258A2C1700AC4568 /* json_demoApp.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		47E10C251FA4C4A2DCC7DD79 /* remote-error-model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "remote-error-model.swift"; sourceTree = "<group>"; };
 		47E10C970A212FC70DD6C3D5 /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
 		47E10F8E447859257B3455A3 /* events-model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "events-model.swift"; sourceTree = "<group>"; };
 		FEE2CFC3258A2C1700AC4568 /* json-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "json-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +76,7 @@
 				FEE2CFD9258A2D5F00AC4568 /* Event.swift */,
 				FEE2CFE4258A39E500AC4568 /* RemoteEventsView.swift */,
 				47E10F8E447859257B3455A3 /* events-model.swift */,
+				47E10C251FA4C4A2DCC7DD79 /* remote-error-model.swift */,
 			);
 			path = "json-demo";
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				FEE2CFD7258A2CF100AC4568 /* local-json-data.swift in Sources */,
 				FEE2CFC7258A2C1700AC4568 /* json_demoApp.swift in Sources */,
 				47E10BA1A0F082D79C9FE1F0 /* events-model.swift in Sources */,
+				47E105A2DED9899ED6F4FEEB /* remote-error-model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
