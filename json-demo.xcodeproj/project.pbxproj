@@ -10,6 +10,7 @@
 		47E105A2DED9899ED6F4FEEB /* remote-error-model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E10C251FA4C4A2DCC7DD79 /* remote-error-model.swift */; };
 		47E10BA1A0F082D79C9FE1F0 /* events-model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E10F8E447859257B3455A3 /* events-model.swift */; };
 		47E10F299DC0D900DDDAE86C /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 47E10C970A212FC70DD6C3D5 /* test.json */; };
+		FE093FEA25F7EDE6004B1EBB /* RemoteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE093FE925F7EDE6004B1EBB /* RemoteImageView.swift */; };
 		FEE2CFC7258A2C1700AC4568 /* json_demoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE2CFC6258A2C1700AC4568 /* json_demoApp.swift */; };
 		FEE2CFC9258A2C1700AC4568 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE2CFC8258A2C1700AC4568 /* ContentView.swift */; };
 		FEE2CFCB258A2C1900AC4568 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEE2CFCA258A2C1900AC4568 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 		47E10C251FA4C4A2DCC7DD79 /* remote-error-model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "remote-error-model.swift"; sourceTree = "<group>"; };
 		47E10C970A212FC70DD6C3D5 /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
 		47E10F8E447859257B3455A3 /* events-model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "events-model.swift"; sourceTree = "<group>"; };
+		FE093FE925F7EDE6004B1EBB /* RemoteImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageView.swift; sourceTree = "<group>"; };
 		FEE2CFC3258A2C1700AC4568 /* json-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "json-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE2CFC6258A2C1700AC4568 /* json_demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = json_demoApp.swift; sourceTree = "<group>"; };
 		FEE2CFC8258A2C1700AC4568 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 		FEE2CFBA258A2C1700AC4568 = {
 			isa = PBXGroup;
 			children = (
+				FE093FE925F7EDE6004B1EBB /* RemoteImageView.swift */,
 				FEE2CFDC258A334500AC4568 /* Resources */,
 				FEE2CFC5258A2C1700AC4568 /* json-demo */,
 				FEE2CFC4258A2C1700AC4568 /* Products */,
@@ -171,6 +174,7 @@
 			files = (
 				FEE2CFE5258A39E500AC4568 /* RemoteEventsView.swift in Sources */,
 				FEE2CFDA258A2D5F00AC4568 /* Event.swift in Sources */,
+				FE093FEA25F7EDE6004B1EBB /* RemoteImageView.swift in Sources */,
 				FEE2CFC9258A2C1700AC4568 /* ContentView.swift in Sources */,
 				FEE2CFD7258A2CF100AC4568 /* local-json-data.swift in Sources */,
 				FEE2CFC7258A2C1700AC4568 /* json_demoApp.swift in Sources */,

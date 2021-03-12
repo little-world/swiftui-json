@@ -11,8 +11,9 @@ import SwiftUI
 struct json_demoApp: App {
     var body: some Scene {
         WindowGroup {
-            //ContentView()
-            RemoteEventsView()
+           // ContentView()
+            //RemoteEventsView()
+          RemoteImageView(withURL: "https://www.fiets.nl/app/uploads/Ghost-Lector.jpg")
         }
     }
 }
